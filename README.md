@@ -86,20 +86,4 @@ Each counter resets automatically when leaving its respective state, ensuring ac
 4. Synthesize, implement, and generate the bitstream.
 5. Program the FPGA and test in real-time.
 
----
 
-### 📂 File Structure
-
-
-├── railway_gate_sim.v     // FSM and counter logic
-├── tb_project.v           // Testbench (optional)
-├── README.md              // Project documentation
-
-
----
-
-Let me know if you'd like to include:
-- A waveform screenshot showing the fixed behavior
-- Block diagram in image form
-- A simulation .vcd or .gtkw file for GTKWave
-- 
