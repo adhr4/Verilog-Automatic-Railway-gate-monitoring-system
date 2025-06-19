@@ -1,1 +1,3 @@
 # Verilog-Automatic-Railway-gate-monitoring-system
+#### This Project uses verilog and is FSM based which has three states IDLE state , Alert state and close_gate state. 
+##### WORKING : in this project we defined two leds LED1 and LED2 showing signal recieved and gate closing respectively. First when a trai  is approaching we recieve a signal from nearby station that the train has passed, then the fsm goes to alert state and LED1 turns on after that there is a time taken for the train to rach that crossing for that we gave delay using counter and then when the counter reaches a particular value then 
