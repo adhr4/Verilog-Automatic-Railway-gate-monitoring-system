@@ -1,0 +1,7 @@
+set_property -dict {PACKAGE_PIN F14 IOSTANDARD LVCMOS33} [get_ports {clk_100MHz}]
+
+set_property -dict {PACKAGE_PIN V2 IOSTANDARD LVCMOS33} [get_ports {SW1}]
+set_property -dict {PACKAGE_PIN U2 IOSTANDARD LVCMOS33} [get_ports {reset}]
+
+set_property -dict {PACKAGE_PIN G1 IOSTANDARD LVCMOS33} [get_ports {LED1}]
+set_property -dict {PACKAGE_PIN G2 IOSTANDARD LVCMOS33} [get_ports {LED2}]
